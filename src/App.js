@@ -85,9 +85,47 @@ function App() {
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             
       </section>
+
+      <section className="section section-five">
+        <div className="container">
+          <h2 className="hidden">Title</h2>
+          
+          <ul className="creative">
+            <li className="creative-item">
+              <article>
+                <p className="image"><img src="https://dummyimage.com/250x250/000/fff" /></p>
+                <h3 className="title center">creative minds</h3>
+                <p className="paragraph center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercit</p>
+              </article>
+            </li>
+            
+            <li className="creative-item">
+              <article>
+                <p className="image"><img src="https://dummyimage.com/250x250/000/fff" /></p>
+                <h3 className="title center">creative minds</h3>
+                <p className="paragraph center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercit</p>
+              </article>
+            </li>
+            
+            <li className="creative-item">
+              <article>
+                <p className="image"><img src="https://dummyimage.com/250x250/000/fff" /></p>
+                <h3 className="title center">creative minds</h3>
+                <p className="paragraph center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercit</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
       
       <footer className="footer">
-        <p className="copyright">Todos los derechos reservados, 2019</p>
+        <div className="container">
+          <p className="copyright">Todos los derechos reservados, 2019</p>
+        </div>
       </footer>
       
     </main>
